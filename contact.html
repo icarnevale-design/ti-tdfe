@@ -33,9 +33,87 @@
         <div class="contenedor">
         <p class="antetitulo">Contacto</p>
         <h1 class="titulo-seccion">Escribinos</h1>
-        <p class="texto-seccion">Contanos qué buscás y te ayudamos a encontrar la fragancia.</p>
+        <p class="texto-seccion">Contanos qué buscás y te ayudamos a encontrar la fragancia. Respondemos dentro de las 48 horas hábiles.</p>
         <div class="bloque de contacto">
+    <form class="formulario" action="#" method="post">
+    <div class="campo">
+    <label for="nombre">Nombre y apellido</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Ana Gómez">
+    </div>
+    <div class="campo">
+      <label for="email">Correo electrónico</label>
+      <input type="email" id="email" name="email" placeholder="ana@correo.com">
+    </div>
+    <div class="campo">
+      <label for="telefono">Teléfono</label>
+      <input type="tel" id="telefono" name="telefono" placeholder="11 5555 5555">
+    </div>
+    <div class="campo">
+      <label for="perfume">Perfume de interés</label>
+      <select id="perfume" name="perfume">
+        <option value="">Elegí una opción</option>
+        <option value="noche-vera">Noche Vera</option>
+        <option value="sal-de-mar">Sal de Mar</option>
+        <option value="ambar-07">Ámbar 07</option>
+        <option value="jardin-interior">Jardin Interior</option>
+        <option value="tabaco-blanco">Tabaco Blanco</option>
+        <option value="lino">Lino</option>
+        <option value="citrico-1912">Cítrico 1912</option>
+        <option value="bosque-humedo">Bosque Húmedo</option>
+        <option value="rosa-nocturna">Rosa Nocturna</option>
+        <option value="kit">Kit descubrimiento</option>
+        </select>
+    </div>
     
+    <div class="campo">
+      <label>Tipo de fragancia que preferís</label>
+      <div class="opciones">
+        <label class="opcion"><input type="radio" name="familia" value="amaderada" checked>Amaderada</label>
+        <label class="opcion"><input type="radio" name="familia" value="floral">Floral</label>
+        <label class="opcion"><input type="radio" name="familia" value="citrica">Cítrica</label>
+        <label class="opcion"><input type="radio" name="familia" value="oriental">Oriental</label>
+      </div>
+    </div>
+
+    <div class="campo">
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" name="mensaje" placeholder="Contanos qué estás buscando..."></textarea>
+    </div>
+
+    <p class="linea-check">
+      <label><input type="checkbox" name="novedades" value="sí" checked>Quiero recibir novedades y lanzamientos de Aurea</label>
+    </p>
+
+    <button type="submit" class="boton">Enviar consulta</button>
+    </form>
+
+    <aside class="datos-contacto"> 
+      <div class="ficha">
+        <h3>Showroom</h3>
+        <p>Av. Santa Fe 2450, piso 3<br>Ciudad de Buenos Aires</p>
+      </div>
+
+      <div class="ficha">
+        <h3>Horarios</h3>
+        <p>Lunes a viernes de 11 a 19hs<br>Sábados de 11 a 15hs</p> 
+      </div>
+
+      <div class="ficha">
+        <h3>Atención</h3>
+        <p><a href="mailto:hola@aurea.com.ar">hola@aurea.com.ar</a><br><a href="tel:+541148002200">+54 11 4800 2200</a></p>
+      </div>
+
+      <iframe class="mapa"
+      src="https://maps.app.goo.gl/iJwbkM2hyauQm6JN6"
+      title="Mapa del showroom de Aurea"></iframe>
+    </aside>
+        </div>
+    </div>
+    </section>
+  </main>
+
+
+
     <footer class="pie">
     <div class="contenedor">
       <div class="pie-columna">

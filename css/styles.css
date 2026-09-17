@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    background-color: #161826;
+    color: #e9e9ed;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #9184d9;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.cabecera .contenedor {
+    padding: 20px 0px 20px 0px;
+}
+
+.logo img{
+        width: 54px;
+        height: 54px;
+        border-radius: 8px;
+    }
+
+.logo-texto {
+    margin-left: 14px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 6px;
+    color: #e9e9ed;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.logo-bajada {
+    display: block;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #8b8fa3;
+    text-transform: uppercase;
+    margin: 2px 0px 0px 0px;
+}
+
+.menu a {
+    color: #c9cbd6;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+    border-bottom: 1px solid transparent;
+}
+
+.menu .activp {
+    color: #9184d9;
+    border-bottom: 1px solid #9184d9;
+}
+
+.portada {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #2a2d40;
+}
+
+.antetitulo {
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #9184d9;
+    margin-bottom: 20px;
+}
+
+.titulo-grande {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 24px;
+}
+
+.bajada {
+    font-size: 18px;
+    color: #a9adc0;
+    margin-bottom: 36px;
+    max-width: 460px;
+}
+
+.boton {
+    display: inline-block;
+    border: 1px solid #9184d9;
+    color: #9184d9;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+}
+
+.boton-secundario {
+    border: 1px solid #3a3d52;
+    color: #c9cbd6;
+    margin-left: 12px;
+}
+

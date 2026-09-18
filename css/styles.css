@@ -123,3 +123,108 @@ img {
     margin-left: 12px;
 }
 
+.foto-alta {
+  height: 460px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.foto-producto {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.foto-ancha {
+  height: 340px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.seccion {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #2a2d40;
+}
+
+.titulo-seccion {
+  font-size: 34px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.texto-seccion {
+  color: #a9adc0;
+  max-width: 540px;
+  margin-bottom: 48px;
+}
+
+.producto {
+  background-color: #1b1e2e;
+  border: 1px solid #2a2d40;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.producto-familia {
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #9184d9;
+  margin-bottom: 6px;
+}
+
+.producto-nombre {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.producto-notas {
+  font-size: 14px;
+  color: #a9adc0;
+  margin-bottom: 18px;
+}
+
+.producto-pie {
+  border-top: 1px solid #2a2d40;
+  padding-top: 16px;
+  margin-top: 18px;
+}
+
+.precio {
+  font-size: 20px;
+}
+
+.medida {
+  font-size: 13px;
+  color: #8b8fa3;
+}
+
+.sobre-texto p {
+  color: #a9adc0;
+  margin-bottom: 18px;
+}
+
+.dato {
+  margin-right: 44px;
+  margin-bottom: 16px;
+}
+
+.dato strong {
+  display: block;
+  font-size: 28px;
+  font-weight: 500;
+  color: #e9e9ed;
+}
+
+.dato span {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #8b8fa3;
+}

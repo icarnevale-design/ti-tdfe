@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto-Aurea</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto-Aurea</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header class="cabecera">
+
+  <header class="cabecera">
     <div class="contenedor">
       <a href="index.html" class="logo">
         <img src="./img/logo-chico.jpg" alt="Logo de Aurea Perfumes">
@@ -28,104 +29,117 @@
     </div>
   </header>
 
-  <main> 
+  <main>
     <section class="seccion">
-        <div class="contenedor">
+      <div class="contenedor">
         <p class="antetitulo">Contacto</p>
         <h1 class="titulo-seccion">Escribinos</h1>
         <p class="texto-seccion">Contanos qué buscás y te ayudamos a encontrar la fragancia. Respondemos dentro de las 48 horas hábiles.</p>
-        <div class="bloque de contacto">
-    <form class="formulario" action="#" method="post">
-    <div class="campo">
-    <label for="nombre">Nombre y apellido</label>
-    <input type="text" id="nombre" name="nombre" placeholder="Ana Gómez">
-    </div>
-    <div class="campo">
-      <label for="email">Correo electrónico</label>
-      <input type="email" id="email" name="email" placeholder="ana@correo.com">
-    </div>
-    <div class="campo">
-      <label for="telefono">Teléfono</label>
-      <input type="tel" id="telefono" name="telefono" placeholder="11 5555 5555">
-    </div>
-    <div class="campo">
-      <label for="perfume">Perfume de interés</label>
-      <select id="perfume" name="perfume">
-        <option value="">Elegí una opción</option>
-        <option value="noche-vera">Noche Vera</option>
-        <option value="sal-de-mar">Sal de Mar</option>
-        <option value="ambar-07">Ámbar 07</option>
-        <option value="jardin-interior">Jardin Interior</option>
-        <option value="tabaco-blanco">Tabaco Blanco</option>
-        <option value="lino">Lino</option>
-        <option value="citrico-1912">Cítrico 1912</option>
-        <option value="bosque-humedo">Bosque Húmedo</option>
-        <option value="rosa-nocturna">Rosa Nocturna</option>
-        <option value="kit">Kit descubrimiento</option>
-        </select>
-    </div>
-    
-    <div class="campo">
-      <label>Tipo de fragancia que preferís</label>
-      <div class="opciones">
-        <label class="opcion"><input type="radio" name="familia" value="amaderada" checked>Amaderada</label>
-        <label class="opcion"><input type="radio" name="familia" value="floral">Floral</label>
-        <label class="opcion"><input type="radio" name="familia" value="citrica">Cítrica</label>
-        <label class="opcion"><input type="radio" name="familia" value="oriental">Oriental</label>
-      </div>
-    </div>
 
-    <div class="campo">
-      <label for="mensaje">Mensaje</label>
-      <textarea id="mensaje" name="mensaje" placeholder="Contanos qué estás buscando..."></textarea>
-    </div>
+        <div class="bloque-contacto">
 
-    <p class="linea-check">
-      <label><input type="checkbox" name="novedades" value="sí" checked>Quiero recibir novedades y lanzamientos de Aurea</label>
-    </p>
+          <form class="formulario" action="#" method="post">
 
-    <button type="submit" class="boton">Enviar consulta</button>
-    </form>
+            <div class="campo">
+              <label for="nombre">Nombre y apellido</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Ana Gómez" class="control">
+            </div>
 
-    <aside class="datos-contacto"> 
-      <div class="ficha">
-        <h3>Showroom</h3>
-        <p>Av. Santa Fe 2450, piso 3<br>Ciudad de Buenos Aires</p>
-      </div>
+            <div class="campo">
+              <label for="email">Correo electrónico</label>
+              <input type="email" id="email" name="email" placeholder="ana@correo.com" class="control">
+            </div>
 
-      <div class="ficha">
-        <h3>Horarios</h3>
-        <p>Lunes a viernes de 11 a 19hs<br>Sábados de 11 a 15hs</p> 
-      </div>
+            <div class="campo">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="11 5555 5555" class="control">
+            </div>
 
-      <div class="ficha">
-        <h3>Atención</h3>
-        <p><a href="mailto:hola@aurea.com.ar">hola@aurea.com.ar</a><br><a href="tel:+541148002200">+54 11 4800 2200</a></p>
-      </div>
+            <div class="campo">
+              <label for="perfume">Perfume de interés</label>
+              <select id="perfume" name="perfume" class="control">
+                <option value="">Elegí una opción</option>
+                <option value="perfume-01">ACA VA EL NOMBRE 1</option>
+                <option value="perfume-02">ACA VA EL NOMBRE 2</option>
+                <option value="perfume-03">ACA VA EL NOMBRE 3</option>
+                <option value="perfume-04">ACA VA EL NOMBRE 4</option>
+                <option value="perfume-05">ACA VA EL NOMBRE 5</option>
+                <option value="perfume-06">ACA VA EL NOMBRE 6</option>
+                <option value="perfume-07">ACA VA EL NOMBRE 7</option>
+                <option value="perfume-08">ACA VA EL NOMBRE 8</option>
+                <option value="perfume-09">ACA VA EL NOMBRE 9</option>
+                <option value="perfume-10">ACA VA EL NOMBRE 10</option>
+                <option value="perfume-11">ACA VA EL NOMBRE 11</option>
+                <option value="perfume-12">ACA VA EL NOMBRE 12</option>
+                <option value="perfume-13">ACA VA EL NOMBRE 13</option>
+                <option value="perfume-14">ACA VA EL NOMBRE 14</option>
+                <option value="perfume-15">ACA VA EL NOMBRE 15</option>
+                <option value="perfume-16">ACA VA EL NOMBRE 16</option>
+                <option value="perfume-17">ACA VA EL NOMBRE 17</option>
+                <option value="perfume-18">ACA VA EL NOMBRE 18</option>
+                <option value="perfume-19">ACA VA EL NOMBRE 19</option>
+                <option value="perfume-20">ACA VA EL NOMBRE 20</option>
+                <option value="kit">Kit descubrimiento</option>
+              </select>
+            </div>
 
-      <iframe class="mapa"
-      src="https://maps.app.goo.gl/iJwbkM2hyauQm6JN6"
-      title="Mapa del showroom de Aurea"></iframe>
-    </aside>
+            <div class="campo">
+              <label>Tipo de fragancia que preferís</label>
+              <div class="opciones">
+                <label><input type="radio" name="familia" value="amaderada" checked> Amaderada</label>
+                <label><input type="radio" name="familia" value="floral"> Floral</label>
+                <label><input type="radio" name="familia" value="citrica"> Cítrica</label>
+                <label><input type="radio" name="familia" value="oriental"> Oriental</label>
+              </div>
+            </div>
+
+            <div class="campo">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" placeholder="Contanos qué estás buscando..." class="control"></textarea>
+            </div>
+
+            <p class="linea-check">
+              <label><input type="checkbox" name="novedades" value="si" checked> Quiero recibir novedades y lanzamientos de Aurea</label>
+            </p>
+
+            <button type="submit" class="boton">Enviar consulta</button>
+          </form>
+
+          <aside class="datos-contacto">
+            <div class="ficha">
+              <h3>Showroom</h3>
+              <p>Av. Santa Fe 2450, piso 3<br>Ciudad de Buenos Aires</p>
+            </div>
+            <div class="ficha">
+              <h3>Horarios</h3>
+              <p>Lunes a viernes de 11 a 19 hs<br>Sábados de 11 a 15 hs</p>
+            </div>
+            <div class="ficha">
+              <h3>Atención</h3>
+              <p><a href="mailto:hola@aurea.com.ar">hola@aurea.com.ar</a><br><a href="tel:+541148002200">+54 11 4800 2200</a></p>
+            </div>
+            <iframe class="mapa"
+              src="https://www.google.com/maps?q=Av.+Santa+Fe+2450,+Buenos+Aires&amp;output=embed"
+              title="Mapa del showroom de Aurea"></iframe>
+          </aside>
+
         </div>
-    </div>
+      </div>
     </section>
   </main>
 
-
-
-    <footer class="pie">
+  <footer class="pie">
     <div class="contenedor">
       <div class="pie-columna">
-        <img src="img/logo.jpg" alt="Logo de Aurea Perfumes" class="logo-pie">
+        <img src="./img/logo.jpg" alt="Logo de Aurea Perfumes" class="logo-pie">
         <p class="medida">Perfumería de autor desde 2014.<br>Av. Santa Fe 2450, Buenos Aires.</p>
       </div>
       <div class="pie-columna">
         <h4>Navegación</h4>
         <ul>
           <li><a href="index.html">Inicio</a></li>
-          <li><a href="productos.html">Perfumes</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="products.html">Perfumes</a></li>
+          <li><a href="contact.html">Contacto</a></li>
         </ul>
       </div>
       <div class="pie-columna">
@@ -148,3 +162,6 @@
       <p class="copyright">© 2026 Aurea Perfumes. Trabajo integrador — Tecnologías de desarrollo frontend.</p>
     </div>
   </footer>
+
+</body>
+</html>

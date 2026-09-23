@@ -251,6 +251,20 @@ img {
   color: #8b8fa3;
 }
 
+.bloque-contacto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.formulario {
+  width: 55%;
+}
+
+.datos-contacto {
+  width: 38%;
+}
+
 .campo {
   margin-bottom: 20px;
 }
@@ -318,6 +332,12 @@ img {
   padding-bottom: 40px;
 }
 
+.pie .contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .logo-pie {
   width: 160px;
   height: 160px;
@@ -351,4 +371,70 @@ img {
   padding-top: 24px;
   color: #6f7488;
   font-size: 13px;
+}
+
+@media (max-width: 900px) {
+  .producto {
+    width: 48%;
+  }
+
+  .titulo-grande {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cabecera .contenedor {
+    justify-content: center;
+  }
+
+  .logo {
+    margin-bottom: 16px;
+  }
+
+  .menu {
+    justify-content: center;
+  }
+
+  .menu li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .portada {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .portada-texto,
+  .portada-imagen,
+  .sobre-texto,
+  .sobre-imagen,
+  .formulario,
+  .datos-contacto,
+  .producto {
+    width: 100%;
+  }
+
+  .producto {
+    margin: 0px 0px 24px 0px;
+  }
+
+  .portada-imagen,
+  .sobre-imagen {
+    margin-top: 36px;
+  }
+
+  .titulo-grande {
+    font-size: 36px;
+  }
+
+  .titulo-seccion {
+    font-size: 28px;
+  }
+
+  .boton-secundario {
+    margin-left: 0px;
+    margin-top: 12px;
+  }
 }

@@ -171,7 +171,14 @@ img {
   margin-bottom: 48px;
 }
 
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .producto {
+  width: 31.33%;
+  margin: 0% 1% 24px 1%;
   background-color: #1b1e2e;
   border: 1px solid #2a2d40;
   padding: 20px;
@@ -184,6 +191,9 @@ img {
 }
 
 .producto-pie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-top: 1px solid #2a2d40;
   padding-top: 16px;
   margin-top: 18px;
@@ -196,6 +206,27 @@ img {
 .medida {
   font-size: 13px;
   color: #8b8fa3;
+}
+
+.sobre .contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sobre-texto {
+  width: 46%;
+}
+
+.sobre-imagen {
+  width: 48%;
+}
+
+.datos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 28px;
 }
 
 .sobre-texto p {
